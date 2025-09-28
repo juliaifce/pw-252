@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">   
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">News</a>
+                <a href="#" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="navbar-nav ms-auto">
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div class="container-fluid p-5 bg-dark text-white text-center">
+  <h1>Entre Uvas e Eras</h1>
+  <p>Explorando a herança e a paixão do vinho em cada gole.</p> 
+</div>
+  
+
+<div class="card-group">
+    <div class="card">
+        <img src="https://img.freepik.com/premium-photo/red-wine-dreams-cinematic-sip-luxury_793337-11157.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">O Nascimento do Vinho</h5>
+            <p class="card-text">O vinho surgiu há mais de 8 mil anos, provavelmente na região do Cáucaso, entre a atual Geórgia, Armênia e Irã. Civilizações antigas como os sumérios, egípcios e gregos já produziam vinho e o utilizavam em rituais religiosos e celebrações. O cultivo da videira foi um marco importante na transição de culturas nômades para sociedades agrícolas.</p>
+            <button class="btn btn-dark">Descubra</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.IP0ZszkzULO8Oy2wencicwHaE7?w=626&h=417&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Da Roma Antiga à Idade Média</h5>
+            <p class="card-text">Na Roma Antiga, o vinho tornou-se símbolo de status e parte essencial da vida cotidiana. Com a expansão do Império, as videiras se espalharam pela Europa. Durante a Idade Média, monges cristãos preservaram a tradição da viticultura, aprimorando técnicas de cultivo e fermentação. O vinho se consolidou como parte da cultura ocidental.</p>
+            <button class="btn btn-dark">Descubra</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://img.freepik.com/fotos-premium/foto-weinglaeser-mit-rotweinflasche-und-frischen-trauben_575980-33514.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Tradição e Inovação</h5>
+            <p class="card-text">Hoje, o vinho é produzido em quase todos os continentes, combinando tradição milenar com tecnologia moderna. Regiões como França, Itália, Portugal, Chile e Brasil se destacam por sua qualidade e diversidade. Mais do que uma bebida, o vinho é expressão de história, território e cultura — uma herança que continua evoluindo.</p>
+            <button class="btn btn-dark">Descubra</button>
+        </div>
+    </div>
+</div>
+
+<div class="p-5 mb-4 bg-light border rounded-3">
+    <h1>A História do Vinho</h1>
+    <p class="lead">Viaje no tempo através dos sabores, tradições e culturas que moldaram o mundo do vinho.
+      Descubra como essa bebida milenar acompanhou impérios, religiões e celebrações por milênios.</p>
+     <button class="btn btn-dark btn-lg" type="button">Descubra</button>
+</div>
+
+
+
+
+<footer class="bg-secondary text-white text-center py-5">
+  <div class="container-fluid">
+    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" 
+         alt="Bootstrap logo" width="50" height="40" class="mb-2">
+    <p class="mb-0">Feito com Bootstrap</p>
+  </div>
+</footer>
+
+</body>
+</html>
