@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adicionar Questão</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Adicionar Questão</h1>
+    <form id="questaoForm">
+      <label for="nomeQuestao">Nome da Questão:</label>
+      <input type="text" id="nomeQuestao" name="nomeQuestao" required />
+
+      <label for="disciplina">Disciplina:</label>
+      <select id="disciplina" name="disciplina" required>
+        <option value="">Selecione...</option>
+        <option value="Matemática">Matemática</option>
+        <option value="Português">Português</option>
+        <option value="Ciências">Ciências</option>
+      </select>
+
+      <div id="alternativasContainer">
+        <label>Alternativa A:</label>
+        <input type="text" name="alternativaA" required />
+  <label>
+    <input type="radio" name="correta" value="A" required />
+    </label>
+ 
+ 
+ 
+    <label>Alternativa B:</label>
+        <input type="text" name="alternativaB" required />
+  <label>
+    <input type="radio" name="correta" value="B" required />
+  </label>
+
+
+        <label>Alternativa C:</label>
+        <input type="text" name="alternativaC" required />
+  <label>
+    <input type="radio" name="correta" value="C" required />
+  </label>
+
+
+        <label>Alternativa D:</label>
+        <input type="text" name="alternativaD" required />
+  <label>
+    <input type="radio" name="correta" value="D" required />
+  </label>
+        
+      </div>
+
+      <button type="submit">Adicionar Questão</button>
+    </form>
+
+    <h2>Questões Cadastradas</h2>
+    <div id="listaQuestoes"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
